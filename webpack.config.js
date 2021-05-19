@@ -37,7 +37,7 @@ module.exports = {
       library: { type: 'var', name: 'test_app' },
       filename: 'remoteEntry.js',
       exposes: {
-        './TestApp': './src/App',
+        './pluginConfig': './src/config',
       },
       remotes: {
         'iaso_root': 'iaso_root',
