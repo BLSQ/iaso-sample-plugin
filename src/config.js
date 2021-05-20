@@ -27,7 +27,7 @@ const menuItems = [
     {
         label: 'Plugin List',
         permission: 'iaso_forms',
-        key: 'plugin',
+        key: 'plugin/list',
         icon: 'list',
     },
 ]
